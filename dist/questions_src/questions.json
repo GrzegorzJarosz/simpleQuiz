@@ -1,0 +1,24 @@
+ {
+   "questions":[
+  {
+    "question": "Ile zebow ma dorosly kot?",
+    "choices": [26, 28, 30, 32, 34],
+    "correctAnswer": 2
+  }, {
+    "question": "Najbardziej zalesione panstwo to?",
+    "choices": ["Węgry", "Mołdawia", "Kanada", "Brazylia", "Rosja"],
+    "correctAnswer": 4
+  }, {
+    "question": "Najtwardszy mineral to?",
+    "choices": ["diament", "korund", "bazalt", "kalcyt", "anhydryt"],
+    "correctAnswer": 0
+  }, {
+    "question": "Skad pochodzi milorzab dwuklapowy?",
+    "choices": ["Syberia", "Chiny", "Wietnam", "Malta", "Kreta"],
+    "correctAnswer": 1
+  }, {
+    "question": "Najwieksze zwierze zyjace na drzewach?",
+    "choices": ["Panda", "Leniwiec", "Orangutan", "Sęp", "Bocian"],
+    "correctAnswer": 2
+  }
+]}

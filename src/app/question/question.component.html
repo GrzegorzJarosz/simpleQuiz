@@ -1,0 +1,13 @@
+<div class="question-container">
+  <div class="question">
+    {{active_question.question}}
+  </div>
+  <div
+    [@questAnime]
+    class="panel"
+    *ngFor="let item of active_question.choices; let in = index"
+    [ngClass]="{active : activePanel === in}"
+    (click)="onPanelSelect(in)">
+    <i class="myicons" [ngClass]="(activePanel === in) ? 'dot-circle' :  'circle' " ></i><span>{{item}}</span>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<div class="navi-container">
+  <div class="navi-buttons">
+    <div class="btn btn-back" [ngClass]="{'active': !this.progress.first}" (click)="navigate(-1)">
+      <i class="myicons back-arrow"></i><span>Back</span>
+    </div>
+    <div class="btn btn-next active" (click)="navigate(1)">
+      <span>Next</span><i class="myicons next-arrow"></i>
+    </div>
+  </div>
+
+  <div class="prog-container">
+    <div class="prog-bar" [ngStyle]="{'width': progress.val+'%' }"></div>
+  </div>
+</div>
