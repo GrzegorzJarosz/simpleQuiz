@@ -40,12 +40,16 @@ svg{
   flex-direction: column;
   align-items: center;
 }
+.question{
+  text-align: center;
+}
 
 .navi-buttons{
   display: flex;
   justify-content: space-between;
   width:90%;
 }
+
 .final-container{
   display: flex;
   flex-direction: column;
