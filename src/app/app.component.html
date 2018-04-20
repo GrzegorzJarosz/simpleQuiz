@@ -8,5 +8,5 @@
   </app-question>
   <app-final *ngIf="finished" [result]="getResult()" (resetQuiz)="newQuiz($vent)"></app-final>
   <app-navigation *ngIf="!finished" [progress]="progress" (navChanged)="onNavigate($event)"></app-navigation>
-  <footer><span>legit company &copy; 2018</span></footer>
+  <footer><span>&copy; 2018</span></footer>
 </div>
