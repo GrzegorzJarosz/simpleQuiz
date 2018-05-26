@@ -1,15 +1,15 @@
-# Projekt
+# Content
 
-Prosty quiz
+Simple Quiz
 
-## Technologie
+## Technologies
 
 Angular5,
 Sass
 
-## Zmiana / konfiguracja pytan
+## Questions editing
 
-Wystarczy edytować / podmienić plik questions.json
+go to questions.json file
 
 ## Live version
 
